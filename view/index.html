@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>opepPGP implementation</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <div class="container">
+      <h1>openPGP implementation using Node.js</h1>
+      <br></br>
+      <p>Please click on button to see encrypted and decrypted data of entered personal data.</p>
+      <br></br>
+      <form action="http://localhost:3000/encrypt-decrypt" method="POST">
+        <div class="form-group">
+          <label for="personalData">Personal data (Contact/Email/Address etc.)</label>
+          <input type="text" class="form-control" id="personalData" aria-describedby="emailHelp" placeholder="Enter any personal data" name="personal_data">
+        </div>
+        <br></br>
+        <button type="submit" class="btn btn-primary">Encrypt & Decrypt</button>
+      </form>
+  </body>
+</html>
