@@ -1,5 +1,5 @@
 # openpgp-nodejs
-To encrypt and decrypt input data
+To encrypt and decrypt input data:
 
 1. Download the above package in your local machine
 2. Run command 'npm i' to install the dependencies
